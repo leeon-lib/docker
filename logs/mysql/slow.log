@@ -1,0 +1,627 @@
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2018-08-02T05:42:56.055577Z
+# User@Host: root[root] @ localhost []  Id:     3
+# Query_time: 4.569062  Lock_time: 0.000180 Rows_sent: 0  Rows_examined: 0
+use mysql;
+SET timestamp=1533188576;
+INSERT INTO time_zone_transition (Time_zone_id, Transition_time, Transition_type_id) VALUES
+ (@time_zone_id, -2147483648, 0)
+,(@time_zone_id, -1262281242, 1)
+,(@time_zone_id, 136360803, 2)
+,(@time_zone_id, 152082003, 1)
+,(@time_zone_id, 167810404, 2)
+,(@time_zone_id, 183531604, 1)
+,(@time_zone_id, 199260005, 2)
+,(@time_zone_id, 215586005, 1)
+,(@time_zone_id, 230709606, 2)
+,(@time_zone_id, 247035606, 1)
+,(@time_zone_id, 262764007, 2)
+,(@time_zone_id, 278485207, 1)
+,(@time_zone_id, 294213608, 2)
+,(@time_zone_id, 309934808, 1)
+,(@time_zone_id, 325663209, 2)
+,(@time_zone_id, 341384409, 1)
+,(@time_zone_id, 357112809, 2)
+,(@time_zone_id, 372834010, 1)
+,(@time_zone_id, 388562410, 2)
+,(@time_zone_id, 404888411, 1)
+,(@time_zone_id, 420012011, 2)
+,(@time_zone_id, 436338012, 1)
+,(@time_zone_id, 452066412, 2)
+,(@time_zone_id, 467787612, 1)
+,(@time_zone_id, 483516012, 2)
+,(@time_zone_id, 499237213, 1)
+,(@time_zone_id, 514965613, 2)
+,(@time_zone_id, 530686813, 1)
+,(@time_zone_id, 544600813, 2)
+,(@time_zone_id, 562136413, 1)
+,(@time_zone_id, 576050414, 2)
+,(@time_zone_id, 594190814, 1)
+,(@time_zone_id, 607500014, 2)
+,(@time_zone_id, 625640414, 1)
+,(@time_zone_id, 638949615, 2)
+,(@time_zone_id, 657090015, 1)
+,(@time_zone_id, 671004016, 2)
+,(@time_zone_id, 688539616, 1)
+,(@time_zone_id, 702453616, 2)
+,(@time_zone_id, 719989217, 1)
+,(@time_zone_id, 733903217, 2)
+,(@time_zone_id, 752043618, 1)
+,(@time_zone_id, 765352818, 2)
+,(@time_zone_id, 783493219, 1)
+,(@time_zone_id, 796802419, 2)
+,(@time_zone_id, 814942819, 1)
+,(@time_zone_id, 828856820, 2)
+,(@time_zone_id, 846392420, 1)
+,(@time_zone_id, 860306420, 2)
+,(@time_zone_id, 877842021, 1)
+,(@time_zone_id, 891756021, 2)
+,(@time_zone_id, 909291621, 1)
+,(@time_zone_id, 923205622, 2)
+,(@time_zone_id, 941346022, 1)
+,(@time_zone_id, 954655222, 2)
+,(@time_zone_id, 972795622, 1)
+,(@time_zone_id, 986104822, 2)
+,(@time_zone_id, 1004245222, 1)
+,(@time_zone_id, 1018159222, 2)
+,(@time_zone_id, 1035694822, 1)
+,(@time_zone_id, 1049608822, 2)
+,(@time_zone_id, 1067144422, 1)
+,(@time_zone_id, 1081058422, 2)
+,(@time_zone_id, 1099198822, 1)
+,(@time_zone_id, 1112508022, 2)
+,(@time_zone_id, 1130648422, 1)
+,(@time_zone_id, 1143957623, 2)
+,(@time_zone_id, 1162098023, 1)
+,(@time_zone_id, 1173592823, 2)
+,(@time_zone_id, 1194152423, 1)
+,(@time_zone_id, 1205042423, 2)
+,(@time_zone_id, 1225602023, 1)
+,(@time_zone_id, 1236492024, 2)
+,(@time_zone_id, 1257051624, 1)
+,(@time_zone_id, 1268546424, 2)
+,(@time_zone_id, 1289106024, 1)
+,(@time_zone_id, 1299996024, 2)
+,(@time_zone_id, 1320555624, 1)
+,(@time_zone_id, 1331445624, 2)
+,(@time_zone_id, 1352005225, 1)
+,(@time_zone_id, 1362895225, 2)
+,(@time_zone_id, 1383454825, 1)
+,(@time_zone_id, 1394344825, 2)
+,(@time_zone_id, 1414904425, 1)
+,(@time_zone_id, 1425794425, 2)
+,(@time_zone_id, 1446354026, 1)
+,(@time_zone_id, 1457848826, 2)
+,(@time_zone_id, 1478408426, 1)
+,(@time_zone_id, 1489298427, 2)
+,(@time_zone_id, 1509858027, 1)
+,(@time_zone_id, 1520748027, 2)
+,(@time_zone_id, 1541307627, 1)
+,(@time_zone_id, 1552197627, 2)
+,(@time_zone_id, 1572757227, 1)
+,(@time_zone_id, 1583647227, 2)
+,(@time_zone_id, 1604206827, 1)
+,(@time_zone_id, 1615701627, 2)
+,(@time_zone_id, 1636261227, 1)
+,(@time_zone_id, 1647151227, 2)
+,(@time_zone_id, 1667710827, 1)
+,(@time_zone_id, 1678600827, 2)
+,(@time_zone_id, 1699160427, 1)
+,(@time_zone_id, 1710050427, 2)
+,(@time_zone_id, 1730610027, 1)
+,(@time_zone_id, 1741500027, 2)
+,(@time_zone_id, 1762059627, 1)
+,(@time_zone_id, 1772949627, 2)
+,(@time_zone_id, 1793509227, 1)
+,(@time_zone_id, 1805004027, 2)
+,(@time_zone_id, 1825563627, 1)
+,(@time_zone_id, 1836453627, 2)
+,(@time_zone_id, 1857013227, 1)
+,(@time_zone_id, 1867903227, 2)
+,(@time_zone_id, 1888462827, 1)
+,(@time_zone_id, 1899352827, 2)
+,(@time_zone_id, 1919912427, 1)
+,(@time_zone_id, 1930802427, 2)
+,(@time_zone_id, 1951362027, 1)
+,(@time_zone_id, 1962856827, 2)
+,(@time_zone_id, 1983416427, 1)
+,(@time_zone_id, 1994306427, 2)
+,(@time_zone_id, 2014866027, 1)
+,(@time_zone_id, 2025756027, 2)
+,(@time_zone_id, 2046315627, 1)
+,(@time_zone_id, 2057205627, 2)
+,(@time_zone_id, 2077765227, 1)
+,(@time_zone_id, 2088655227, 2)
+,(@time_zone_id, 2109214827, 1)
+,(@time_zone_id, 2120104827, 2)
+,(@time_zone_id, 2140664427, 1);
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2018-08-04T05:28:41.036701Z
+# User@Host: zphal[zphal] @  [172.18.0.1]  Id:     5
+# Query_time: 0.029967  Lock_time: 0.017894 Rows_sent: 0  Rows_examined: 0
+use zphaldb;
+SET timestamp=1533360521;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'zphaldb' ORDER BY routine_name;
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+mysqld, Version: 5.7.23-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2018-08-13T11:42:48.664000Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.045643  Lock_time: 0.020871 Rows_sent: 0  Rows_examined: 48
+use zphaldb;
+SET timestamp=1534160568;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'zphaldb' ORDER BY routine_name;
+# Time: 2018-08-13T11:42:48.698854Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.013789  Lock_time: 0.005664 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534160568;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'zphaldb';
+# Time: 2018-08-13T11:45:37.408363Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.009532  Lock_time: 0.000644 Rows_sent: 48  Rows_examined: 96
+use sys;
+SET timestamp=1534160737;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'sys' ORDER BY routine_name;
+# Time: 2018-08-13T11:45:38.156690Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.002483  Lock_time: 0.000890 Rows_sent: 48  Rows_examined: 48
+SET timestamp=1534160738;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'sys';
+# Time: 2018-08-13T11:45:38.437672Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.008735  Lock_time: 0.005679 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160738;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'host_summary' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:38.637929Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.012471  Lock_time: 0.001567 Rows_sent: 1  Rows_examined: 1623
+SET timestamp=1534160738;
+SELECT * FROM `host_summary` LIMIT 0,500;
+# Time: 2018-08-13T11:45:39.510693Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001520  Lock_time: 0.000938 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160739;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'host_summary_by_file_io_type' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:39.669596Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.006217  Lock_time: 0.001460 Rows_sent: 20  Rows_examined: 662
+SET timestamp=1534160739;
+SELECT * FROM `host_summary_by_file_io_type` LIMIT 0,500;
+# Time: 2018-08-13T11:45:42.537941Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.003221  Lock_time: 0.001694 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160742;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'innodb_buffer_stats_by_schema' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:42.785147Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.060555  Lock_time: 0.000329 Rows_sent: 2  Rows_examined: 8284
+SET timestamp=1534160742;
+SELECT * FROM `innodb_buffer_stats_by_schema` LIMIT 0,500;
+# Time: 2018-08-13T11:45:44.517487Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002812  Lock_time: 0.001670 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160744;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'waits_by_host_by_latency' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:44.709290Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.007298  Lock_time: 0.000381 Rows_sent: 20  Rows_examined: 662
+SET timestamp=1534160744;
+SELECT * FROM `waits_by_host_by_latency` LIMIT 0,500;
+# Time: 2018-08-13T11:45:47.961450Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.004386  Lock_time: 0.001334 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1534160747;
+SELECT * FROM information_schema.ROUTINES AS r WHERE r.SPECIFIC_NAME = 'ps_setup_show_enabled' AND r.ROUTINE_SCHEMA = 'sys' AND r.ROUTINE_TYPE = 'PROCEDURE';
+# Time: 2018-08-13T11:45:49.052436Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.003108  Lock_time: 0.000841 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1534160749;
+SELECT * FROM information_schema.ROUTINES AS r WHERE r.SPECIFIC_NAME = 'ps_setup_enable_instrument' AND r.ROUTINE_SCHEMA = 'sys' AND r.ROUTINE_TYPE = 'PROCEDURE';
+# Time: 2018-08-13T11:45:50.246460Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.003492  Lock_time: 0.000662 Rows_sent: 1  Rows_examined: 48
+SET timestamp=1534160750;
+SELECT * FROM information_schema.ROUTINES AS r WHERE r.SPECIFIC_NAME = 'extract_schema_from_file_name' AND r.ROUTINE_SCHEMA = 'sys' AND r.ROUTINE_TYPE = 'FUNCTION';
+# Time: 2018-08-13T11:45:51.628095Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001553  Lock_time: 0.000565 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160751;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'x$user_summary_by_statement_latency' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:51.806970Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.003747  Lock_time: 0.000261 Rows_sent: 2  Rows_examined: 386
+SET timestamp=1534160751;
+SELECT * FROM `x$user_summary_by_statement_latency` LIMIT 0,500;
+# Time: 2018-08-13T11:45:52.864559Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.003332  Lock_time: 0.000698 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160752;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'x$latest_file_io' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:53.038996Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002302  Lock_time: 0.001281 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1534160753;
+SELECT * FROM `x$latest_file_io` LIMIT 0,500;
+# Time: 2018-08-13T11:45:55.582983Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001309  Lock_time: 0.000624 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160755;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'x$innodb_lock_waits' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:55.797555Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001970  Lock_time: 0.000494 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1534160755;
+SELECT * FROM `x$innodb_lock_waits` LIMIT 0,500;
+# Time: 2018-08-13T11:45:56.430800Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002466  Lock_time: 0.001479 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160756;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'x$host_summary' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:56.621766Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.019167  Lock_time: 0.004261 Rows_sent: 1  Rows_examined: 1623
+SET timestamp=1534160756;
+SELECT * FROM `x$host_summary` LIMIT 0,500;
+# Time: 2018-08-13T11:45:58.749172Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002383  Lock_time: 0.001440 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160758;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'version' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:45:59.613003Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.006835  Lock_time: 0.000117 Rows_sent: 6  Rows_examined: 6
+SET timestamp=1534160759;
+SELECT * FROM `sys_config` LIMIT 0,500;
+# Time: 2018-08-13T11:45:59.656645Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000325  Lock_time: 0.000138 Rows_sent: 8  Rows_examined: 9
+SET timestamp=1534160759;
+SELECT Engine, Support FROM `information_schema`.`engines` WHERE SUPPORT IN ('DEFAULT', 'YES');
+# Time: 2018-08-13T11:45:59.657501Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000401  Lock_time: 0.000083 Rows_sent: 41  Rows_examined: 82
+SET timestamp=1534160759;
+SELECT * FROM `information_schema`.`character_sets` ORDER BY `character_set_name` ASC;
+# Time: 2018-08-13T11:45:59.658676Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000539  Lock_time: 0.000100 Rows_sent: 27  Rows_examined: 249
+SET timestamp=1534160759;
+SELECT * FROM `information_schema`.`collations` WHERE character_set_name = 'utf8' ORDER BY `collation_name` ASC;
+# Time: 2018-08-13T11:46:03.778041Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.005240  Lock_time: 0.000555 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160763;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'metrics' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:46:03.972301Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.015774  Lock_time: 0.000928 Rows_sent: 412  Rows_examined: 8557
+SET timestamp=1534160763;
+SELECT * FROM `metrics` LIMIT 0,500;
+# Time: 2018-08-13T11:46:17.291477Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001708  Lock_time: 0.000518 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160777;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'memory_by_user_by_current_bytes' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:46:17.525030Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.007430  Lock_time: 0.000503 Rows_sent: 2  Rows_examined: 588
+SET timestamp=1534160777;
+SELECT * FROM `memory_by_user_by_current_bytes` LIMIT 0,500;
+# Time: 2018-08-13T11:46:17.946401Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.019707  Lock_time: 0.002756 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1534160777;
+SELECT * FROM information_schema.VIEWS AS r WHERE r.TABLE_NAME = 'user_summary' AND r.TABLE_SCHEMA = 'sys';
+# Time: 2018-08-13T11:46:18.160308Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.006898  Lock_time: 0.000919 Rows_sent: 2  Rows_examined: 1632
+SET timestamp=1534160778;
+SELECT * FROM `user_summary` LIMIT 0,500;
+# Time: 2018-08-13T11:46:23.896648Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002474  Lock_time: 0.000794 Rows_sent: 0  Rows_examined: 48
+use mysql;
+SET timestamp=1534160783;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'mysql' ORDER BY routine_name;
+# Time: 2018-08-13T11:46:24.198472Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.002329  Lock_time: 0.000695 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534160784;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'mysql';
+# Time: 2018-08-13T11:46:25.067833Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.004111  Lock_time: 0.000096 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1534160785;
+SELECT * FROM `user` LIMIT 0,500;
+# Time: 2018-08-13T11:46:25.181025Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000358  Lock_time: 0.000189 Rows_sent: 8  Rows_examined: 9
+SET timestamp=1534160785;
+SELECT Engine, Support FROM `information_schema`.`engines` WHERE SUPPORT IN ('DEFAULT', 'YES');
+# Time: 2018-08-13T11:46:25.182934Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000303  Lock_time: 0.000084 Rows_sent: 41  Rows_examined: 82
+SET timestamp=1534160785;
+SELECT * FROM `information_schema`.`character_sets` ORDER BY `character_set_name` ASC;
+# Time: 2018-08-13T11:46:34.135721Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000294  Lock_time: 0.000090 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1534160794;
+SELECT * FROM `servers` LIMIT 0,500;
+# Time: 2018-08-13T11:46:41.505829Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001233  Lock_time: 0.000213 Rows_sent: 5  Rows_examined: 5
+SET timestamp=1534160801;
+SELECT * FROM `user` LIMIT 0,500;
+# Time: 2018-08-13T11:46:59.889532Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.003443  Lock_time: 0.000642 Rows_sent: 0  Rows_examined: 48
+use zphaldb;
+SET timestamp=1534160819;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'zphaldb' ORDER BY routine_name;
+# Time: 2018-08-13T11:47:09.854259Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002791  Lock_time: 0.000736 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534160829;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'zphaldb' ORDER BY routine_name;
+# Time: 2018-08-13T11:47:09.861373Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.002928  Lock_time: 0.000571 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534160829;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'zphaldb';
+# Time: 2018-08-13T11:47:27.147511Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000550  Lock_time: 0.000171 Rows_sent: 41  Rows_examined: 82
+SET timestamp=1534160847;
+SELECT * FROM `information_schema`.`character_sets` ORDER BY `character_set_name` ASC;
+# Time: 2018-08-13T11:47:30.282868Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.002161  Lock_time: 0.000599 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534160850;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'zphaldb';
+# Time: 2018-08-13T11:47:30.343493Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.004950  Lock_time: 0.000807 Rows_sent: 0  Rows_examined: 48
+use oms;
+SET timestamp=1534160850;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'oms' ORDER BY routine_name;
+# Time: 2018-08-13T11:47:30.381173Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.004042  Lock_time: 0.000944 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534160850;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T11:56:45.631624Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    10
+# Query_time: 0.000378  Lock_time: 0.000095 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1534161405;
+select * from migrations;
+# Time: 2018-08-13T11:56:45.634719Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    10
+# Query_time: 0.000318  Lock_time: 0.000090 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1534161405;
+select max(batch) max_batch from migrations limit 1;
+# Time: 2018-08-13T11:57:02.998046Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001980  Lock_time: 0.000544 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161422;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'oms' ORDER BY routine_name;
+# Time: 2018-08-13T11:57:03.045944Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.003871  Lock_time: 0.000527 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161423;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T11:57:18.079073Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.002435  Lock_time: 0.000663 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161438;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T11:57:30.091554Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000414  Lock_time: 0.000110 Rows_sent: 41  Rows_examined: 82
+SET timestamp=1534161450;
+SELECT * FROM `information_schema`.`character_sets` ORDER BY `character_set_name` ASC;
+# Time: 2018-08-13T11:57:38.774997Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.005221  Lock_time: 0.000950 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161458;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'oms' ORDER BY routine_name;
+# Time: 2018-08-13T11:57:38.801474Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.003173  Lock_time: 0.001273 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161458;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T11:57:44.677041Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    12
+# Query_time: 0.000331  Lock_time: 0.000117 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1534161464;
+select * from migrations;
+# Time: 2018-08-13T11:57:44.678653Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    12
+# Query_time: 0.000135  Lock_time: 0.000037 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1534161464;
+select max(batch) max_batch from migrations limit 1;
+# Time: 2018-08-13T11:58:11.575645Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.003298  Lock_time: 0.000721 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161491;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'oms' ORDER BY routine_name;
+# Time: 2018-08-13T11:58:11.633196Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.002295  Lock_time: 0.000594 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161491;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T11:58:12.318478Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.001912  Lock_time: 0.000481 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161492;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'oms' ORDER BY routine_name;
+# Time: 2018-08-13T11:58:12.354129Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.001929  Lock_time: 0.000575 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161492;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T11:59:30.978415Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.004556  Lock_time: 0.001492 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161570;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T11:59:33.899364Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000599  Lock_time: 0.000116 Rows_sent: 41  Rows_examined: 82
+SET timestamp=1534161573;
+SELECT * FROM `information_schema`.`character_sets` ORDER BY `character_set_name` ASC;
+# Time: 2018-08-13T12:00:51.823097Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    14
+# Query_time: 0.000304  Lock_time: 0.000083 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1534161651;
+select * from migrations;
+# Time: 2018-08-13T12:00:51.826342Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    14
+# Query_time: 0.000197  Lock_time: 0.000053 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1534161651;
+select max(batch) max_batch from migrations limit 1;
+# Time: 2018-08-13T12:00:57.393665Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002124  Lock_time: 0.000557 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161657;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'oms' ORDER BY routine_name;
+# Time: 2018-08-13T12:00:57.439774Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     5
+# Query_time: 0.002119  Lock_time: 0.000504 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534161657;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'oms';
+# Time: 2018-08-13T12:01:02.768560Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000276  Lock_time: 0.000106 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1534161662;
+SELECT COUNT(1) FROM `migrations`;
+# Time: 2018-08-13T12:01:03.806875Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.000478  Lock_time: 0.000188 Rows_sent: 6  Rows_examined: 6
+SET timestamp=1534161663;
+SELECT * FROM `migrations` LIMIT 0,500;
+# Time: 2018-08-13T12:01:03.860249Z
+# User@Host: root[root] @  [172.18.0.1]  Id:     4
+# Query_time: 0.002317  Lock_time: 0.000332 Rows_sent: 8  Rows_examined: 9
+SET timestamp=1534161663;
+SELECT Engine, Support FROM `information_schema`.`engines` WHERE SUPPORT IN ('DEFAULT', 'YES');
+# Time: 2018-08-13T13:37:07.654156Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    15
+# Query_time: 0.013977  Lock_time: 0.003434 Rows_sent: 0  Rows_examined: 48
+use zphaldb;
+SET timestamp=1534167427;
+SELECT * FROM information_schema.routines WHERE routine_schema = 'zphaldb' ORDER BY routine_name;
+# Time: 2018-08-13T13:37:07.668993Z
+# User@Host: root[root] @  [172.18.0.1]  Id:    16
+# Query_time: 0.010118  Lock_time: 0.004353 Rows_sent: 0  Rows_examined: 48
+SET timestamp=1534167427;
+SELECT SPECIFIC_NAME, ROUTINE_TYPE, DTD_IDENTIFIER, IS_DETERMINISTIC, SQL_DATA_ACCESS, SECURITY_TYPE, DEFINER FROM `information_schema`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'zphaldb';
